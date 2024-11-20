@@ -30,7 +30,7 @@ func newGame() *game {
 		TopBorder:    5,
 		BottomBorder: 30,
 
-		SnakeSpeed: time.Millisecond * 130,
+		SnakeSpeed: time.Millisecond * 100,
 	}
 
 	snake := newSnake(cfg)
